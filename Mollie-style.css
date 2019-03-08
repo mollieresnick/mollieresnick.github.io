@@ -11,7 +11,11 @@
 	h1 {
 	font-family:'Cedarville Cursive',cursive;
 	}
-		
+		img.fun{
+			filter: brightness; 
+			-webkit-filter: brightness;
+}
+@keyframes 
 		li a {
   display: block;
   color: white;
