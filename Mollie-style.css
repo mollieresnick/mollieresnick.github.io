@@ -42,4 +42,22 @@ table, th, td {
 }
 
 
+img.image1{
+	filter:url;
+	-webkit-filter: url;
+}
 
+@keyframes hello{
+	from {filter: invert(5%); }
+	to {filter: invert(115%); }
+}
+@-webkit-keyframes hello{
+	from {filter: invert(5%); }/{ width:20%;}
+	to {filter: invert(115%); }/{ width: 100%;}
+}
+
+img.hello{
+	animation: hello 5s infinite backwards;
+	-webkit-animation: hello 5s infinite backwards;
+	width: 40%:
+}
